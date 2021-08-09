@@ -1,24 +1,31 @@
 import React, { useEffect } from "react";
 import classNames from "classnames";
+import { window, document } from "ssr-window";
 import { Link } from "gatsby";
 import NavItems from "../../content/nav-items";
 
 const Header = () => {
   useEffect(() => {
-    const ariaCurrentItem = document.querySelector("nav ul li a[aria-current='page']");
-    ariaCurrentItem.classList.add("text-indigo-500");
+    if (typeof window !== "undefined") {
+      const ariaCurrentItem = document.querySelector("nav ul li a[aria-current='page']");
+      ariaCurrentItem.classList.add("text-indigo-500");
+    }
   });
 
-  const handleHumbergerMenu = (e) => {
-    const navMenu = document.getElementById("nav-menu");
-    navMenu.classList.toggle("hidden");
+  const handleHumbergerMenu = () => {
+    if (typeof window !== "undefined") {
+      const navMenu = window.document.getElementById("nav-menu");
+      navMenu.classList.toggle("hidden");
+    }
   };
 
   const closeNavMenu = (e) => {
-    const navMenu = document.getElementById("nav-menu");
-    const ariaCurrent = e.target.getAttribute("aria-current");
-    if (ariaCurrent === "page") {
-      navMenu.classList.add("hidden");
+    if (typeof window !== "undefined") {
+      const navMenu = window.document.getElementById("nav-menu");
+      const ariaCurrent = e.target.getAttribute("aria-current");
+      if (ariaCurrent === "page") {
+        navMenu.classList.add("hidden");
+      }
     }
   };
 

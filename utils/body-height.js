@@ -4,11 +4,13 @@
  * @param {*} addClass
  */
 const switchBodyHeight = (removeClass, addClass) => {
-  const bodyTag = document.getElementsByTagName("body");
-  if (bodyTag[0].classList.contains(removeClass)) {
-    bodyTag[0].classList.remove(removeClass);
+  if (typeof window !== "undefined") {
+    const bodyTag = document.getElementsByTagName("body");
+    if (bodyTag[0].classList.contains(removeClass)) {
+      bodyTag[0].classList.remove(removeClass);
+    }
+    bodyTag[0].classList.add(addClass);
   }
-  bodyTag[0].classList.add(addClass);
 };
 
 export default switchBodyHeight;
