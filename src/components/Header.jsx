@@ -1,26 +1,27 @@
 import React, { useEffect } from "react";
 import classNames from "classnames";
-import { window, document } from "ssr-window";
 import { Link } from "gatsby";
 import NavItems from "../../content/nav-items";
 
 const Header = () => {
+  const isBrowser = typeof window !== "undefined";
+
   useEffect(() => {
-    if (typeof window !== "undefined") {
+    if (isBrowser) {
       const ariaCurrentItem = document.querySelector("nav ul li a[aria-current='page']");
       ariaCurrentItem.classList.add("text-indigo-500");
     }
   });
 
   const handleHumbergerMenu = () => {
-    if (typeof window !== "undefined") {
+    if (isBrowser) {
       const navMenu = window.document.getElementById("nav-menu");
       navMenu.classList.toggle("hidden");
     }
   };
 
   const closeNavMenu = (e) => {
-    if (typeof window !== "undefined") {
+    if (isBrowser) {
       const navMenu = window.document.getElementById("nav-menu");
       const ariaCurrent = e.target.getAttribute("aria-current");
       if (ariaCurrent === "page") {
