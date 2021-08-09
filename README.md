@@ -3,7 +3,7 @@
 <a href="https://brave-newton-5463d0.netlify.app/" target="_blank">こちらから確認できます</a>
 
 ### 使用技術  
-- JavaScriptフレームワーク: Gatsby version: 3.11.0
+- 静的サイトジェネレーター: Gatsby version: 3.11.0
 - CSSフレームワーク： Tailwind CSS version: 2.2.7
 - Paas: Netlify
 
