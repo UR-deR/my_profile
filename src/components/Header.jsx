@@ -9,7 +9,9 @@ const Header = () => {
   useEffect(() => {
     if (isBrowser) {
       const ariaCurrentItem = document.querySelector("nav ul li a[aria-current='page']");
-      ariaCurrentItem.classList.add("text-indigo-500");
+      if (ariaCurrentItem) {
+        ariaCurrentItem.classList.add("text-indigo-500");
+      }
     }
   });
 

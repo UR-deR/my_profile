@@ -5,7 +5,7 @@ const interestData = [
     title: "ボードゲーム",
     content: (
       <>
-        　ビデオゲームも好きですが、友達や家族と一緒にボードゲームをするのも好きです。ボードゲームがあれば大抵の人とは仲良くなれると思っています。一番好きなボードゲームは
+        ビデオゲームも好きですが、友達や家族と一緒にボードゲームをするのも好きです。ボードゲームがあれば大抵の人とは仲良くなれると思っています。一番好きなボードゲームは
         <a href="https://jelly2games.com/deception" className="link" target="_blank" rel="noreferrer">
           ディセプション
         </a>
@@ -23,7 +23,7 @@ const interestData = [
     title: "動物",
     content: (
       <>
-        　昔から動物が好きで、実家では犬、祖母の家に住んでいた時は猫とウサギとチャボを飼っていました。
+        昔から動物が好きで、実家では犬、祖母の家に住んでいた時は猫とウサギとチャボを飼っていました。
         <a href="http://www.enakyo-tenkaien.jp/touch/" className="link" target="_blank" rel="noreferrer">
           遊園地
         </a>
@@ -42,7 +42,7 @@ const interestData = [
   },
   {
     title: "中国文化",
-    content: <>　中国人留学生達と仲良くなったことがきっかけで、中国文化に興味を持つようになりました。YoutubeやNetflix等で中国の映画やドラマ、文化に関しての動画をよく見ます。最近は歌も聴くようになりました。在学中に一度は中国本土に行ってみたかったです...。</>,
+    content: <>中国人留学生達と仲良くなったことがきっかけで、中国文化に興味を持つようになりました。YoutubeやNetflix等で中国の映画やドラマ、文化に関しての動画をよく見ます。最近は歌も聴くようになりました。在学中に一度は中国本土に行ってみたかったです...。</>,
     svg: (
       <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="70pt" height="70pt" viewBox="0 0 1280.000000 931.000000" preserveAspectRatio="xMidYMid meet">
         <metadata>Created by potrace 1.15, written by Peter Selinger 2001-2017</metadata>
@@ -55,7 +55,7 @@ const interestData = [
   },
   {
     title: "漫画・アニメ",
-    content: <>　漫画やアニメを見始めたら止まらなくなってしまうので、一日のご褒美として毎日少しずつ見るようにしています。最近は東京リベンジャーズにハマっています。英語に触れる機会を増やすために英語版のワンピースを読んだりもしています。</>,
+    content: <>漫画やアニメを見始めたら止まらなくなってしまうので、一日のご褒美として毎日少しずつ見るようにしています。最近は東京リベンジャーズにハマっています。英語に触れる機会を増やすために英語版のワンピースを読んだりもしています。</>,
     svg: (
       <svg role="img" xmlns="http://www.w3.org/2000/svg" width="70pt" height="70pt" viewBox="0 0 24 24" aria-labelledby="bookOpenedIconTitle" stroke="#3f51b5" strokeWidth="1.2857142857142858" strokeLinecap="square" strokeLinejoin="miter" fill="none" color="#3f51b5">
         <title id="bookOpenedIconTitle">Book</title> <path d="M12 6s-2-2-4-2-5 2-5 2v14s3-2 5-2 4 2 4 2c1.333-1.333 2.667-2 4-2 1.333 0 3 .667 5 2V6c-2-1.333-3.667-2-5-2-1.333 0-2.667.667-4 2z" /> <path strokeLinecap="round" d="M12 6v14" />
@@ -66,7 +66,7 @@ const interestData = [
     title: "スポーツ観戦",
     content: (
       <>
-        　主に野球ですが、昔からスポーツの試合を見るのが好きです。
+        主に野球ですが、昔からスポーツの試合を見るのが好きです。
         <a href="https://teco.copin.co.jp/" className="link" target="_blank" rel="noreferrer">
           母校のサッカー部
         </a>
