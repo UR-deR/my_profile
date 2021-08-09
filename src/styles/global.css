@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#___gatsby,
+#gatsby-focus-wrapper {
+  @apply h-full;
+}
+
+.link {
+  @apply text-indigo-500 border-transparent duration-500 text-opacity-100;
+}
+
+.link:hover {
+  @apply text-indigo-300 border-b	duration-500 text-opacity-100;
+}
