@@ -1,6 +1,6 @@
 ## Webポートフォリオ作成課題  
 ### 完成ページ  
-[https://brave-newton-5463d0.netlify.app/](https://brave-newton-5463d0.netlify.app/){:target="_blank"}  
+<a href="https://brave-newton-5463d0.netlify.app/" target="_blank">新規タブで閲覧できます</a>
 
 ### 使用技術  
 - JavaScriptフレームワーク: Gatsby version: 3.11.0
