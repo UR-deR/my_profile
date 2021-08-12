@@ -6,10 +6,14 @@
 const switchBodyHeight = (removeClass, addClass) => {
   if (typeof window !== "undefined") {
     const bodyTag = document.getElementsByTagName("body");
+
     if (bodyTag[0].classList.contains(removeClass)) {
       bodyTag[0].classList.remove(removeClass);
     }
-    bodyTag[0].classList.add(addClass);
+
+    if (!bodyTag[0].classList.contains(addClass)) {
+      bodyTag[0].classList.add(addClass);
+    }
   }
 };
 
