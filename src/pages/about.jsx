@@ -1,8 +1,8 @@
 import React from "react";
 import classNames from "classnames";
 import Layout from "../components/Layout";
-import PageTitle from "../components/Page-title";
-import LifeEvent from "../components/Life-event";
+import PageTitle from "../components/PageTitle";
+import LifeEvent from "../components/LifeEvent";
 import lifeEventData from "../../content/life-event-data";
 import switchBodyHeight from "../../utils/body-height";
 
