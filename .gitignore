@@ -1,7 +1,7 @@
 node_modules/
 .cache/
 public
-src/compoenets/IncompleteTodos.jsx
-src/compoenets/CompleteTodos.jsx
-src/compoenets/InputTodo.jsx
+src/components/IncompleteTodos.jsx
+src/components/CompleteTodos.jsx
+src/components/InputTodo.jsx
 src/pages/test.jsx
