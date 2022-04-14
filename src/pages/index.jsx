@@ -18,7 +18,7 @@ const IndexPage = () => {
         <div className={classNames("container", "m-auto", "h-1/2")}>
           <div className={classNames("p-4")}>
             <p className={classNames("md:text-center", "text-left", "leading-7")}>
-              岐阜県多治見市育ち、千葉市中央区在住の千葉大学法政経学部の4年生。主にベイズ統計学、データ分析について学習しています。
+              岐阜県多治見市育ち、千葉市中央区在住の千葉大学法政経学部の4年生。<br />主にベイズ統計学、データ分析について学習しています。
               <br />
               <a className={classNames("link")} href="https://apice.biz" target="_blank" rel="noreferrer">
                 株式会社エイピス
