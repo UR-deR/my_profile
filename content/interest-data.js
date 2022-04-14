@@ -5,7 +5,7 @@ const interestData = [
     title: "ボードゲーム",
     content: (
       <>
-        ビデオゲームも好きですが、友達や家族と一緒にボードゲームをするのも好きです。ボードゲームがあれば大抵の人とは仲良くなれると思っています。一番好きなボードゲームは
+        ビデオゲームも好きですが、友達や家族と一緒にボードゲームをするのも好きです。一番好きなボードゲームは
         <a href="https://jelly2games.com/deception" className="link" target="_blank" rel="noreferrer">
           ディセプション
         </a>
@@ -55,7 +55,7 @@ const interestData = [
   },
   {
     title: "漫画・アニメ",
-    content: <>漫画やアニメを見始めたら止まらなくなってしまうので、一日のご褒美として毎日少しずつ見るようにしています。最近は東京リベンジャーズにハマっています。英語に触れる機会を増やすために英語版のワンピースを読んだりもしています。</>,
+    content: <>ワンピース、コナン、鬼滅の刃など人気のある作品を中心に見ています。アニメを見るときは英語字幕をつけて、英語のイディオムや表現もついでに覚えるようにしています。</>,
     svg: (
       <svg role="img" xmlns="http://www.w3.org/2000/svg" width="70pt" height="70pt" viewBox="0 0 24 24" aria-labelledby="bookOpenedIconTitle" stroke="#3f51b5" strokeWidth="1.2857142857142858" strokeLinecap="square" strokeLinejoin="miter" fill="none" color="#3f51b5">
         <title id="bookOpenedIconTitle">Book</title> <path d="M12 6s-2-2-4-2-5 2-5 2v14s3-2 5-2 4 2 4 2c1.333-1.333 2.667-2 4-2 1.333 0 3 .667 5 2V6c-2-1.333-3.667-2-5-2-1.333 0-2.667.667-4 2z" /> <path strokeLinecap="round" d="M12 6v14" />
@@ -66,11 +66,7 @@ const interestData = [
     title: "スポーツ観戦",
     content: (
       <>
-        主に野球ですが、昔からスポーツの試合を見るのが好きです。
-        <a href="https://teco.copin.co.jp/" className="link" target="_blank" rel="noreferrer">
-          母校のサッカー部
-        </a>
-        が選手権に出る時は応援に行きます。
+        主に野球ですが、昔からスポーツの試合を見るのが好きです。冬のオリンピックでは必ずカーリングを見て一喜一憂しています。
       </>
     ),
     svg: (
