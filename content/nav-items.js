@@ -1,19 +1,19 @@
 const navItems = [
   {
-    uri: "/",
-    itemTitle: "HOME",
+    uri: '/',
+    itemTitle: 'HOME',
   },
   {
-    uri: "/about",
-    itemTitle: "ABOUT ME",
+    uri: '/about',
+    itemTitle: 'ABOUT ME',
   },
   {
-    uri: "/interests",
-    itemTitle: "INTERESTS",
+    uri: '/interests',
+    itemTitle: 'INTERESTS',
   },
   {
-    uri: "/experiences",
-    itemTitle: "EXPERIENCES",
+    uri: '/experiences',
+    itemTitle: 'EXPERIENCES',
   },
 ];
 
