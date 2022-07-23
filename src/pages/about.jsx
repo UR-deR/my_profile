@@ -1,13 +1,11 @@
 import React from 'react';
 import classNames from 'classnames';
 import { Layout } from '../components/Layout';
-import { PageTitle } from '../components/PageTitle';
 import { LifeEvent } from '../components/LifeEvent';
 import { lifeEvents } from '../../content/lifeEvents';
 
 const AboutPage = () => (
-  <Layout>
-    <PageTitle title='ABOUT ME' />
+  <Layout title='ABOUT ME'>
     <section className={classNames('text-gray-600', 'body-font')}>
       <div className={classNames('container', 'flex', 'flex-wrap', 'mx-auto', ' px-5', 'sm:py-24', 'py-12')}>
         {lifeEvents.map((data) => (

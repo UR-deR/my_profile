@@ -3,8 +3,9 @@ import classNames from 'classnames';
 import CoverBg from '../images/cover-bg.jpg';
 import { Header } from './Header';
 import { useLocation } from '@reach/router';
+import { PageTitle } from './PageTitle';
 
-export const Layout = ({ children }) => {
+export const Layout = (props) => {
   const isHomePage = useLocation().pathname === '/';
 
   return (
@@ -15,7 +16,10 @@ export const Layout = ({ children }) => {
       }}
     >
       <Header />
-      <main className={classNames(isHomePage ? 'h-screen' : 'h-full')}>{children}</main>
+      <main className={classNames(isHomePage ? 'h-screen' : 'h-full')}>
+        {isHomePage ? null : <PageTitle title={props.title} />}
+        {props.children}
+      </main>
     </div>
   );
 };
