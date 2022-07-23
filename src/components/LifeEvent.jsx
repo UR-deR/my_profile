@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-const LifeEvent = (props) => (
+export const LifeEvent = (props) => (
   <div className={classNames('relative', 'flex', ' sm:items-center', ' md:w-2/3', ' mx-auto', ' pt-10 ', 'pb-20')}>
     <div className={classNames('absolute', ' h-full', ' w-6', ' inset-0', ' flex', ' items-center', ' justify-center')}>
       <div className={classNames('h-full', 'w-1', 'bg-gray-200', 'pointer-events-none')}></div>
@@ -15,5 +15,3 @@ const LifeEvent = (props) => (
     </div>
   </div>
 );
-
-export default LifeEvent;

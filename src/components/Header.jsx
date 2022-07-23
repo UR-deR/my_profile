@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { Link } from 'gatsby';
 import NavItems from '../../content/navItems';
 
-const Header = () => {
+export const Header = () => {
   const isBrowser = typeof window !== 'undefined';
 
   useEffect(() => {
@@ -90,5 +90,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;

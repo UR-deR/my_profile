@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-const Experience = (props) => (
+export const Experience = (props) => (
   <div className={classNames('lg:h-96', 'xl:w-1/3', 'md:w-1/2', 'p-4')}>
     <div className={classNames('flex', 'flex-col', 'h-full', 'p-6', 'border', 'border-gray-300', 'rounded-lg')}>
       <div className={classNames('inline-flex', 'items-center', 'justify-center', 'w-16', 'h-16', 'mx-auto', 'mb-4', 'rounded-full', 'bg-indigo-100', 'text-indigo-500')}>{props.svg}</div>
@@ -10,5 +10,3 @@ const Experience = (props) => (
     </div>
   </div>
 );
-
-export default Experience;

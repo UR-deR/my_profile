@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-const PageTitle = (props) => (
+export const PageTitle = (props) => (
   <section className={classNames('h-full')}>
     <div className={classNames('flex', 'justify-center', 'h-1/6', 'pt-36')}>
       <div className={classNames('flex', 'justify-center')}>
@@ -10,5 +10,3 @@ const PageTitle = (props) => (
     </div>
   </section>
 );
-
-export default PageTitle;

@@ -1,4 +1,4 @@
-const navItems = [
+export const navItems = [
   {
     uri: '/',
     itemTitle: 'HOME',
@@ -16,5 +16,3 @@ const navItems = [
     itemTitle: 'EXPERIENCES',
   },
 ];
-
-export default navItems;

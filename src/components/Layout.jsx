@@ -4,7 +4,7 @@ import Header from './Header';
 import CoverBg from '../images/cover-bg.jpg';
 import { useLocation } from '@reach/router';
 
-const Layout = ({ children }) => {
+export const Layout = ({ children }) => {
   const isHomePage = useLocation().pathname === '/';
 
   return (
@@ -19,5 +19,3 @@ const Layout = ({ children }) => {
     </div>
   );
 };
-
-export default Layout;

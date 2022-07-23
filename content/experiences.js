@@ -1,6 +1,6 @@
 import React from 'react';
 
-const experienceData = [
+export const experienceData = [
   {
     title: 'レコメンドシステム',
     content: 'エンドユーザーにいくつかの質問を出題し、選択肢の選択パターンに応じた結果を表示する。管理画面では、エンドユーザーがどの選択肢を選んだのか、どの結果に辿り着いたのかなどを収集・分析することができるシステムを開発しました。',
@@ -68,5 +68,3 @@ const experienceData = [
     ),
   },
 ];
-
-export default experienceData;

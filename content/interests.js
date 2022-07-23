@@ -1,6 +1,6 @@
 import React from 'react';
 
-const interestData = [
+export const interestData = [
   {
     title: 'ボードゲーム',
     content: (
@@ -77,5 +77,3 @@ const interestData = [
     ),
   },
 ];
-
-export default interestData;

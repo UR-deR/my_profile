@@ -1,6 +1,6 @@
 import React from 'react';
 
-const lifeEventData = [
+export const lifeEventData = [
   {
     title: '誕生',
     content: (
@@ -104,5 +104,3 @@ const lifeEventData = [
     age: '20',
   },
 ];
-
-export default lifeEventData;
