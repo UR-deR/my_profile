@@ -4,10 +4,8 @@ import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
 import Experience from "../components/Experience.jsx";
 import experienceData from "../../content/experience-data.js";
-import switchBodyHeight from "../../utils/body-height";
 
 const ExperiencesPage = () => {
-  switchBodyHeight("h-screen", "h-full");
   return (
     <Layout>
       <PageTitle title="EXPERIENCES" />

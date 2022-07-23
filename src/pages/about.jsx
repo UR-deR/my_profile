@@ -4,10 +4,8 @@ import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
 import LifeEvent from "../components/LifeEvent";
 import lifeEventData from "../../content/life-event-data";
-import switchBodyHeight from "../../utils/body-height";
 
 const AboutPage = () => {
-  switchBodyHeight("h-screen", "h-full");
   return (
     <Layout>
       <PageTitle title="ABOUT ME" />

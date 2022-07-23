@@ -4,10 +4,8 @@ import Layout from "../components/Layout";
 import PageTitle from "../components/PageTitle";
 import Interest from "../components/Interest";
 import interestData from "../../content/interest-data";
-import switchBodyHeight from "../../utils/body-height";
 
 const InterestsPage = () => {
-  switchBodyHeight("h-screen", "h-full");
 
   const dataLength = interestData.length - 1;
   return (

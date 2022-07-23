@@ -1,10 +1,8 @@
 import React from "react";
 import classNames from "classnames";
 import Layout from "../components/Layout.jsx";
-import switchBodyHeight from "../../utils/body-height";
 
 const IndexPage = () => {
-  switchBodyHeight("h-full", "h-screen");
 
   return (
     <Layout>
