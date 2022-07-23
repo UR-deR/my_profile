@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import Layout from '../components/Layout';
 import PageTitle from '../components/PageTitle';
 import LifeEvent from '../components/LifeEvent';
-import lifeEventData from '../../content/life-event-data';
+import lifeEventData from '../../content/lifeEvents';
 
 const AboutPage = () => (
   <Layout>

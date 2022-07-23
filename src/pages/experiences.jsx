@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import Layout from '../components/Layout';
 import PageTitle from '../components/PageTitle';
 import Experience from '../components/Experience.jsx';
-import experienceData from '../../content/experience-data.js';
+import experienceData from '../../content/experiences.js';
 
 const ExperiencesPage = () => (
   <Layout>

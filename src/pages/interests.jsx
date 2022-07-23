@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import Layout from '../components/Layout';
 import PageTitle from '../components/PageTitle';
 import Interest from '../components/Interest';
-import interestData from '../../content/interest-data';
+import interestData from '../../content/interests';
 
 const InterestsPage = () => {
   const dataLength = interestData.length - 1;

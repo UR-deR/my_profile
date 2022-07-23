@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import classNames from 'classnames';
 import { Link } from 'gatsby';
-import NavItems from '../../content/nav-items';
+import NavItems from '../../content/navItems';
 
 const Header = () => {
   const isBrowser = typeof window !== 'undefined';
