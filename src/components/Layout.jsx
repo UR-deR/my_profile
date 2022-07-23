@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
-import Header from './Header';
 import CoverBg from '../images/cover-bg.jpg';
+import { Header } from './Header';
 import { useLocation } from '@reach/router';
 
 export const Layout = ({ children }) => {

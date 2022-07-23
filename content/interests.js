@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const interestData = [
+export const interests = [
   {
     title: 'ボードゲーム',
     content: (

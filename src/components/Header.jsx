@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import classNames from 'classnames';
 import { Link } from 'gatsby';
-import NavItems from '../../content/navItems';
+import { navItems } from '../../content/navItems';
 
 export const Header = () => {
   const isBrowser = typeof window !== 'undefined';
@@ -47,7 +47,7 @@ export const Header = () => {
           </svg>
         </div>
         <ul className={classNames('md:flex', 'hidden', 'md:items-center', 'pr-14', 'md:space-x-6')}>
-          {NavItems.map((item, index) => {
+          {navItems.map((item, index) => {
             return (
               <li key={index} className=''>
                 <Link to={item.uri} className={classNames('hover:underline', 'hover:text-indigo-500 ', 'duration-300')}>
@@ -76,7 +76,7 @@ export const Header = () => {
           </div>
           <div>
             <ul>
-              {NavItems.map((item) => (
+              {navItems.map((item) => (
                 <li key={item.itemTitle} className={classNames('py-6', 'text-center')}>
                   <Link onClick={closeNavMenu} to={item.uri} className={classNames('hover:underline', 'hover:text-indigo-500', 'duration-300')}>
                     {item.itemTitle}

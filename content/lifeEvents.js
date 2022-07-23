@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const lifeEventData = [
+export const lifeEvents = [
   {
     title: '誕生',
     content: (
