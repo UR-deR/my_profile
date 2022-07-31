@@ -92,7 +92,7 @@ export const lifeEvents = [
     age: '18',
   },
   {
-    title: 'インターン',
+    title: 'インターン１',
     content: (
       <>
         <a href='https://apice.biz' className='link' target='_blank' rel='noreferrer'>
@@ -102,5 +102,30 @@ export const lifeEvents = [
       </>
     ),
     age: '20',
+  },
+  {
+    title: 'インターン２',
+    content: (
+      <>
+        <a href='https://www.claves.co.jp' className='link' target='_blank' rel='noreferrer'>
+          株式会社クラベス
+        </a>
+        にてインターンを開始しました。フロントエンド、バックエンドの開発に携わりました。
+      </>
+    ),
+    age: '21',
+  },
+  {
+    title: '社会人生活開始',
+    content: (
+      <>
+      千葉大学を卒業後、
+        <a href='https://www.claves.co.jp' className='link' target='_blank' rel='noreferrer'>
+          株式会社クラベス
+        </a>
+        に新卒入社。新卒同期入社は一人もいませんが、先輩エンジニアの方々のレベルに追いつけるように日々精進しています。
+      </>
+    ),
+    age: '22',
   },
 ];
