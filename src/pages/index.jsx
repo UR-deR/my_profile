@@ -13,14 +13,7 @@ const IndexPage = () => (
       </div>
       <div className={classNames('container', 'm-auto', 'h-1/2')}>
         <div className={classNames('p-4')}>
-          <p className={classNames('md:text-center', 'text-left', 'leading-7')}>
-            岐阜県多治見市育ち、千葉県在住の新卒ソフトウェアエンジニア。
-            <br />
-            <a className={classNames('link')} href="https://www.claves.co.jp/" target="_blank" rel="noreferrer">
-              株式会社クラベス
-            </a>
-            でフロントエンド開発を主に担当しています。
-          </p>
+          <p className={classNames('md:text-center', 'text-left', 'leading-7')}>岐阜県多治見市育ち、千葉県在住の新卒ソフトウェアエンジニア。</p>
         </div>
       </div>
     </section>
