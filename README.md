@@ -4,7 +4,7 @@
 
 - 静的サイトジェネレーター: Gatsby version: 3.11.0
 - CSS フレームワーク： Tailwind CSS version: 2.2.7
-- Paas: Netlify
+- PaaS: Netlify
 
 ### ページ構成
 
